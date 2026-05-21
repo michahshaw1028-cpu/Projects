@@ -1,3 +1,7 @@
+// Excel formula created to generate fake phone numbers in a dataset.
+
+
+
 =SWITCH(H2,AreaCodes.xlsx!Arkansa, 
 CONCAT(INDEX(AreaCodes.xlsx!ArkansasAreaCodes, 
 RANDBETWEEN(1, ROWS(AreaCodes.xlsx!ArkansasAreaCodes))), RANDBETWEEN(1000000,9999999)), AreaCodes.xlsx!Louisiana,
